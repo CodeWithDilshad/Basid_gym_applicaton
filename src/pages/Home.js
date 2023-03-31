@@ -1,10 +1,16 @@
 import React from 'react'
-
+import { useState } from 'react'
+import { Box } from '@mui/system'
+import HeroBanner from '../components/HeroBanner'
+import SearchExercises from '../components/SearchExercises'
+import Exercises from '../components/Exercises'
 function Home() {
   return ( 
-    <div>
-      My Name is Dilshad 
-    </div>
+    <Box>
+      <HeroBanner/>
+      <SearchExercises/>
+      <Exercises/>
+    </Box>
   )
 }
 
